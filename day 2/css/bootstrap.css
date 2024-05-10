@@ -1,0 +1,69 @@
+
+body{
+    padding: 10px;
+}
+.margin20{
+    margin: 20px;
+}
+.comp{
+    font-weight: 600;
+}
+.complink{
+    font-size: 20px; 
+    margin-left: 20px;
+}
+#compAnchor{
+    text-decoration: none;
+    color: black;
+}
+.progress{
+    margin-top: 20px;
+}
+.acc{
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#compTT{
+    margin-top: 30px;
+}
+#bootstrapNav{
+    height: 80px;
+}
+h1{
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+}
+#navbarsExample03 > ul.nav.nav-pills > li:nth-child(1){
+    margin-right: 20px;
+}
+.tooltip-container {
+    position: relative;
+    display: inline-block; 
+}
+.tooltip-trigger{
+    font-weight: 500;
+    font-size: 24px;
+}
+.tooltip-content {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-content {
+    visibility: visible;
+    opacity: 1;
+}
